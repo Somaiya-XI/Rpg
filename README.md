@@ -89,7 +89,7 @@ Example Response:
 
 ---
 
-##Data Transfer Objects (DTOs)
+## Data Transfer Objects (DTOs)
 
 The API follows a **DTO pattern** to keep the data layer separate from the API layer. This:
 - Prevents **over-exposure** of database models
