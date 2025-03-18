@@ -24,7 +24,7 @@ A role-playing game (RPG) API built with **ASP.NET Core 8**, featuring **JWT aut
 - **AutoMapper** for DTO mapping
 - **Swagger (Swashbuckle)** for API documentation
 
----
+
 
 ## 📌 Getting Started
 
@@ -69,7 +69,7 @@ dotnet watch run
 
 API should now be available at `https://localhost:5113`.
 
----
+
 
 ## Unified API Response Handling
 
@@ -99,7 +99,7 @@ The API follows a **DTO pattern** to keep the data layer separate from the API l
 Example:  
 Instead of exposing the **Character entity**, the API uses `GetCharacterDto`, ensuring only necessary fields are returned.
 
----
+
 
 ## 📜 API Endpoints
 
@@ -132,7 +132,7 @@ Instead of exposing the **Character entity**, the API uses `GetCharacterDto`, en
 |--------|--------------------------|------------------------------------|
 | POST   | `/api/characters/skill`  | Assign skills to character         |
 
----
+
 
 ## Authentication & Security
 
@@ -141,7 +141,7 @@ Instead of exposing the **Character entity**, the API uses `GetCharacterDto`, en
 - Unauthorized access returns **403 Forbidden**
 
 
----
+
 
 ## Contributing
 
